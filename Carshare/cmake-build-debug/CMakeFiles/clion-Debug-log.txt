@@ -1,0 +1,32 @@
+"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\Dima\Desktop\Carshare -B C:\Users\Dima\Desktop\Carshare\cmake-build-debug
+-- The C compiler identification is GNU 13.1.0
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (7.7s)
+CMake Error at CMakeLists.txt:38 (add_library):
+  Cannot find source file:
+
+    GoogleTest/gtest-death-test.cc
+
+
+CMake Error at CMakeLists.txt:38 (add_library):
+  No SOURCES given to target: gtest
+
+
+CMake Error at CMakeLists.txt:44 (add_executable):
+  No SOURCES given to target: untitled1
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
